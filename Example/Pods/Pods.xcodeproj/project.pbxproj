@@ -7,171 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C6FB7851A3FABCF3A31D444F5188CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		450ED78C857874839ED1C22B115C6510 /* Pods-AliyunContentDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8346D4FB78F772D422F896E18447AE /* Pods-AliyunContentDetect_Tests-dummy.m */; };
-		6461ADAF53CDA2AAC1FD91DD6C8D621B /* AliyunContentDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F0B068AFD8D9185613416578227AF9 /* AliyunContentDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CC3B21DBAAD6D296D65DC14EF53866B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6E394C9AC66532D1045A7E7B06418AFD /* Pods-AliyunContentDetect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A46D6138100FFAA23E4BC3AD64187507 /* Pods-AliyunContentDetect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7EFA7B0A19F755F0D6D6AC5DDA5452A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BE4C8E63763AE32A59AFD9C6FEB16714 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 71483239236DCC43916A041106B9E637 /* ReplaceMe.m */; };
-		D794C9AE4522EB0209A3F1A7E2E38FFE /* AliyunContentDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600ED8FBE0330E2203A3CFE3E732AAA9 /* AliyunContentDetect-dummy.m */; };
-		EAC3A40D0C0F14A68BADC8F0B0C81802 /* Pods-AliyunContentDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF2E3EB4301D453C32FFAA443841CE /* Pods-AliyunContentDetect_Example-dummy.m */; };
-		F9669A1326FCB573F1BB692E0A9FA1DE /* Pods-AliyunContentDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A19B81037AE0D6BA55DD3524FD25D65 /* Pods-AliyunContentDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2160003066CCBA1CAC615C1373EE5097 /* AliyunContentDetectService.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D98C8739632234FB807669707B7F3 /* AliyunContentDetectService.m */; };
+		27EC3952B314F853C1BAD2284D27A3BC /* Pods-AliyunContentDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7F8C2E708D3FF96E32AFD58447793 /* Pods-AliyunContentDetect_Tests-dummy.m */; };
+		3546B30E141A2EB3F5CFDE0CC9ED8B7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4AA4A80323A52EA8AEC64F0C1A342754 /* AliyunContentDetectService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDB979E89943AB4806D94CF61A14D4A /* AliyunContentDetectService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60DE479B1ACB562A6E4F684F4935D04D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		71216909B651076DD1888F85EB18D626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		839D113E0C78800133A4E5460BF18479 /* AliyunContentDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E23FAF4A5385EA91C21A3A1952D6A1BA /* AliyunContentDetect-dummy.m */; };
+		E2328B1A533299F80E378F8C98E9C394 /* Pods-AliyunContentDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E0CF1CF49ADC2A109D21417CBB3113 /* Pods-AliyunContentDetect_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B76D027F05E27E9E5655E919823A2107 /* PBXContainerItemProxy */ = {
+		2008896EB14042E0C7853C49B55CB313 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3225C8EB6E446C29920C43770BB0274;
+			remoteGlobalIDString = 898FFBBA39E9D8F9B503C77692F1501F;
 			remoteInfo = AliyunContentDetect;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C74CF7C96C93DC0FBDEC9FCBDA3BC4 /* Pods-AliyunContentDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0C06C589EDBF3B95CE9D608ADBE5E963 /* Pods-AliyunContentDetect_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Example-resources.sh"; sourceTree = "<group>"; };
 		0D440E08C423A6962B80DD103B529198 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking.framework/Headers/AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		145D5E379087F43501394F1AA308930A /* Pods-AliyunContentDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunContentDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		14C20088686674B5FF5994375B878769 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking.framework/Headers/AFJSONRequestOperation.h; sourceTree = "<group>"; };
-		1E7B043615A0828FF9EFDB13F2EDABA4 /* Pods_AliyunContentDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliyunContentDetect_Tests.framework; path = "Pods-AliyunContentDetect_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2009CD59BB0D80A1C818CC7D63D7F238 /* Pods-AliyunContentDetect_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2E5AFD5D07811C2C78446929F1AD4C11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33BD9D0EBCF42B48AEF280F75BE28866 /* AliyunContentDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunContentDetect-prefix.pch"; sourceTree = "<group>"; };
-		40FE03D8835DC802551C60C91B1B74E2 /* Pods-AliyunContentDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		461F213E0F06216E1F91142B126290FA /* Pods-AliyunContentDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A03169D9BA427333B114C8E9100F4C5 /* Pods-AliyunContentDetect_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Tests-resources.sh"; sourceTree = "<group>"; };
+		2EDB979E89943AB4806D94CF61A14D4A /* AliyunContentDetectService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunContentDetectService.h; sourceTree = "<group>"; };
+		3D89ADA8986859F5CDE74A0CDFBB16BD /* Pods-AliyunContentDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunContentDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4EE6CB304F1EC66BBD4AF2B094045D85 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		500DD15675D0E16E5EBC3564F4FD0F64 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
-		506D8946E63B7CCF94CF5D209639CB3F /* AliyunContentDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AliyunContentDetect.modulemap; sourceTree = "<group>"; };
 		5374ED084A2884D25E60270944C97281 /* AFHTTPRequestOperationLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationLogger.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperationLogger.h; sourceTree = "<group>"; };
-		570F1BF60FF47641F2B5214517F8413E /* Pods-AliyunContentDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
-		600ED8FBE0330E2203A3CFE3E732AAA9 /* AliyunContentDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunContentDetect-dummy.m"; sourceTree = "<group>"; };
-		60BDA3E76AF2E3F407FECEE199945B44 /* Pods_AliyunContentDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliyunContentDetect_Example.framework; path = "Pods-AliyunContentDetect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		648A0EE3B149CC36423C9D0C635B725B /* Pods-AliyunContentDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunContentDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64FF97BA509C7BD49726FF8D3B492C7B /* Pods-AliyunContentDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AliyunContentDetect_Tests.modulemap"; sourceTree = "<group>"; };
+		575F0A49861736D055085FB2147EBC43 /* AliyunContentDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunContentDetect-prefix.pch"; sourceTree = "<group>"; };
+		57BD3533152E473325879312E1F6BCCE /* Pods-AliyunContentDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66CB371FB9BC17A9DD6F71BC45C07EE0 /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking.framework/Headers/AFHTTPClient.h; sourceTree = "<group>"; };
-		71483239236DCC43916A041106B9E637 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		792937693F4EAD34D51B2D2B165B5DEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A19B81037AE0D6BA55DD3524FD25D65 /* Pods-AliyunContentDetect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliyunContentDetect_Example-umbrella.h"; sourceTree = "<group>"; };
-		7BA2A21020D735BEA7F6100CAD64B6FD /* Pods-AliyunContentDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69FCFD385009215D0EBC05CFC9A01655 /* Pods-AliyunContentDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6B0E495C374F3B47E04B70116E80613B /* Pods-AliyunContentDetect_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		74E0CF1CF49ADC2A109D21417CBB3113 /* Pods-AliyunContentDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunContentDetect_Example-dummy.m"; sourceTree = "<group>"; };
 		7DB0D838EE15420608FCD56DB5D5C084 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		83F3D4837E848CB1C745BE6CF792A3F7 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking.framework/Headers/AFImageRequestOperation.h; sourceTree = "<group>"; };
-		8823EBCCC91B0AC3F85F9CA5D9FD66D1 /* Pods-AliyunContentDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunContentDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E0773C54EF4BAA3C75B0F33FC5E7497 /* Pods-AliyunContentDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A68596E89528867CD5EE138B97BE5B0 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking.framework/Headers/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
-		A46D6138100FFAA23E4BC3AD64187507 /* Pods-AliyunContentDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliyunContentDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B2C3B30C81646DDA6E587604F5EB563F /* AliyunContentDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliyunContentDetect.framework; path = AliyunContentDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B68AB6CAAE5CDAA9CFA74983E84ED77E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FE1AA91233E77F05E20C79FB39D1B3 /* Pods-AliyunContentDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunContentDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A785EE549E393DE1F52F2E0E58591CB4 /* libPods-AliyunContentDetect_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AliyunContentDetect_Tests.a"; path = "libPods-AliyunContentDetect_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFE1D9217255BB747B4DCF94FF6E038 /* Pods-AliyunContentDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B2E7F8C2E708D3FF96E32AFD58447793 /* Pods-AliyunContentDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunContentDetect_Tests-dummy.m"; sourceTree = "<group>"; };
+		B810778F5F53E4EE2E39FC60471C97D6 /* AliyunContentDetect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunContentDetect.xcconfig; sourceTree = "<group>"; };
 		B8EC42F54251CF288066FDAB59800368 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking.framework/Headers/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		B93B3A8EE132AFCC9C9F9BE868DC8EE8 /* Pods-AliyunContentDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunContentDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBFF2E3EB4301D453C32FFAA443841CE /* Pods-AliyunContentDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunContentDetect_Example-dummy.m"; sourceTree = "<group>"; };
-		DD8346D4FB78F772D422F896E18447AE /* Pods-AliyunContentDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunContentDetect_Tests-dummy.m"; sourceTree = "<group>"; };
+		D4B8DE0F1E8603A4478F133F06C90C7B /* Pods-AliyunContentDetect_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Example-resources.sh"; sourceTree = "<group>"; };
+		E23FAF4A5385EA91C21A3A1952D6A1BA /* AliyunContentDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunContentDetect-dummy.m"; sourceTree = "<group>"; };
+		E29E6107EFDAEC3C98717F0677637030 /* Pods-AliyunContentDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E4576A32C840FF467DB1667577BC57E6 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFDownloadRequestOperation.h; path = AFNetworking.framework/Headers/AFDownloadRequestOperation.h; sourceTree = "<group>"; };
-		E91F2665C321A7CF00A6520521B89EE4 /* Pods-AliyunContentDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AliyunContentDetect_Example.modulemap"; sourceTree = "<group>"; };
-		ECE0D2149753064716A10A4EC6A5E4BF /* AliyunContentDetect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunContentDetect.xcconfig; sourceTree = "<group>"; };
-		ED436E62F31309604862781266E03ECC /* Pods-AliyunContentDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunContentDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E60D98C8739632234FB807669707B7F3 /* AliyunContentDetectService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunContentDetectService.m; sourceTree = "<group>"; };
+		ED82C33F2E5906F6DAD5B7C67DABF425 /* Pods-AliyunContentDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunContentDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE327DBB7CD4D2ED40F6F4E1849AF176 /* libPods-AliyunContentDetect_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AliyunContentDetect_Example.a"; path = "libPods-AliyunContentDetect_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1269EA16A102B399817E2E229C85A6C /* Pods-AliyunContentDetect_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Tests-resources.sh"; sourceTree = "<group>"; };
 		F39E1A17C5F7CCAAF514FC9726E8DD92 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking.framework/Headers/AFNetworking.h; sourceTree = "<group>"; };
+		F63D9A932B83954EC1138886A762A606 /* libAliyunContentDetect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAliyunContentDetect.a; path = libAliyunContentDetect.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7619B3D11FA4A318415A95FAD3B6A0B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking.framework/Headers/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		F9F0B068AFD8D9185613416578227AF9 /* AliyunContentDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunContentDetect-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D6639543DAD6226AC07926704191E0C /* Frameworks */ = {
+		234F6B4361F89BDFBC79F08265FCDAC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC3B21DBAAD6D296D65DC14EF53866B /* Foundation.framework in Frameworks */,
+				3546B30E141A2EB3F5CFDE0CC9ED8B7F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26C3003FDECCFD7EED3A5DD0EC28B5E /* Frameworks */ = {
+		3EEE5A98794021493112A7B62534AB9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6FB7851A3FABCF3A31D444F5188CFC /* Foundation.framework in Frameworks */,
+				71216909B651076DD1888F85EB18D626 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E83FF3239A56AC445DB818D523D10C87 /* Frameworks */ = {
+		6FFF56C52FBCEB473C3E56A8BB3EFFCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7EFA7B0A19F755F0D6D6AC5DDA5452A /* Foundation.framework in Frameworks */,
+				60DE479B1ACB562A6E4F684F4935D04D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080B1A194C568E1DDC7C47AF97B34305 /* Support Files */ = {
+		4599E303291B4F0C45D1F87D7CF8976F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				506D8946E63B7CCF94CF5D209639CB3F /* AliyunContentDetect.modulemap */,
-				ECE0D2149753064716A10A4EC6A5E4BF /* AliyunContentDetect.xcconfig */,
-				600ED8FBE0330E2203A3CFE3E732AAA9 /* AliyunContentDetect-dummy.m */,
-				33BD9D0EBCF42B48AEF280F75BE28866 /* AliyunContentDetect-prefix.pch */,
-				F9F0B068AFD8D9185613416578227AF9 /* AliyunContentDetect-umbrella.h */,
-				792937693F4EAD34D51B2D2B165B5DEC /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AliyunContentDetect";
-			sourceTree = "<group>";
-		};
-		1D30C993F9A38751A6DBCD733C25D187 /* AliyunContentDetect */ = {
-			isa = PBXGroup;
-			children = (
-				FB6689B764E1DC53C48AD8628E7A048F /* AliyunContentDetect */,
-				080B1A194C568E1DDC7C47AF97B34305 /* Support Files */,
-			);
-			name = AliyunContentDetect;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		22BFE853B244D798CD59BBD2682D6802 /* Pods-AliyunContentDetect_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2E5AFD5D07811C2C78446929F1AD4C11 /* Info.plist */,
-				64FF97BA509C7BD49726FF8D3B492C7B /* Pods-AliyunContentDetect_Tests.modulemap */,
-				648A0EE3B149CC36423C9D0C635B725B /* Pods-AliyunContentDetect_Tests-acknowledgements.markdown */,
-				ED436E62F31309604862781266E03ECC /* Pods-AliyunContentDetect_Tests-acknowledgements.plist */,
-				DD8346D4FB78F772D422F896E18447AE /* Pods-AliyunContentDetect_Tests-dummy.m */,
-				2009CD59BB0D80A1C818CC7D63D7F238 /* Pods-AliyunContentDetect_Tests-frameworks.sh */,
-				4A03169D9BA427333B114C8E9100F4C5 /* Pods-AliyunContentDetect_Tests-resources.sh */,
-				A46D6138100FFAA23E4BC3AD64187507 /* Pods-AliyunContentDetect_Tests-umbrella.h */,
-				40FE03D8835DC802551C60C91B1B74E2 /* Pods-AliyunContentDetect_Tests.debug.xcconfig */,
-				461F213E0F06216E1F91142B126290FA /* Pods-AliyunContentDetect_Tests.release.xcconfig */,
-			);
-			name = "Pods-AliyunContentDetect_Tests";
-			path = "Target Support Files/Pods-AliyunContentDetect_Tests";
-			sourceTree = "<group>";
-		};
-		2DC64173F88B87D062F13FF9E3637FA7 /* Pods-AliyunContentDetect_Example */ = {
-			isa = PBXGroup;
-			children = (
-				B68AB6CAAE5CDAA9CFA74983E84ED77E /* Info.plist */,
-				E91F2665C321A7CF00A6520521B89EE4 /* Pods-AliyunContentDetect_Example.modulemap */,
-				B93B3A8EE132AFCC9C9F9BE868DC8EE8 /* Pods-AliyunContentDetect_Example-acknowledgements.markdown */,
-				8823EBCCC91B0AC3F85F9CA5D9FD66D1 /* Pods-AliyunContentDetect_Example-acknowledgements.plist */,
-				CBFF2E3EB4301D453C32FFAA443841CE /* Pods-AliyunContentDetect_Example-dummy.m */,
-				06C74CF7C96C93DC0FBDEC9FCBDA3BC4 /* Pods-AliyunContentDetect_Example-frameworks.sh */,
-				0C06C589EDBF3B95CE9D608ADBE5E963 /* Pods-AliyunContentDetect_Example-resources.sh */,
-				7A19B81037AE0D6BA55DD3524FD25D65 /* Pods-AliyunContentDetect_Example-umbrella.h */,
-				7BA2A21020D735BEA7F6100CAD64B6FD /* Pods-AliyunContentDetect_Example.debug.xcconfig */,
-				570F1BF60FF47641F2B5214517F8413E /* Pods-AliyunContentDetect_Example.release.xcconfig */,
-			);
-			name = "Pods-AliyunContentDetect_Example";
-			path = "Target Support Files/Pods-AliyunContentDetect_Example";
-			sourceTree = "<group>";
-		};
-		6C4A735A0441EE0BE1414B651590C5A7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				71483239236DCC43916A041106B9E637 /* ReplaceMe.m */,
+				2EDB979E89943AB4806D94CF61A14D4A /* AliyunContentDetectService.h */,
+				E60D98C8739632234FB807669707B7F3 /* AliyunContentDetectService.m */,
 			);
 			name = Classes;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		77C84B587C8C03B9189412ED7A67F9FB /* Pods-AliyunContentDetect_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED82C33F2E5906F6DAD5B7C67DABF425 /* Pods-AliyunContentDetect_Tests-acknowledgements.markdown */,
+				145D5E379087F43501394F1AA308930A /* Pods-AliyunContentDetect_Tests-acknowledgements.plist */,
+				B2E7F8C2E708D3FF96E32AFD58447793 /* Pods-AliyunContentDetect_Tests-dummy.m */,
+				6B0E495C374F3B47E04B70116E80613B /* Pods-AliyunContentDetect_Tests-frameworks.sh */,
+				F1269EA16A102B399817E2E229C85A6C /* Pods-AliyunContentDetect_Tests-resources.sh */,
+				8E0773C54EF4BAA3C75B0F33FC5E7497 /* Pods-AliyunContentDetect_Tests.debug.xcconfig */,
+				AAFE1D9217255BB747B4DCF94FF6E038 /* Pods-AliyunContentDetect_Tests.release.xcconfig */,
+			);
+			name = "Pods-AliyunContentDetect_Tests";
+			path = "Target Support Files/Pods-AliyunContentDetect_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -181,17 +127,17 @@
 				E57C4FC8149311805764374B587F80DF /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */,
-				83BD20062E2EC97B04D996850C720277 /* Products */,
-				CAB5F888B51369B32DAE6B5B34C17480 /* Targets Support Files */,
+				99849660D546E60731C4B759ECA5D152 /* Products */,
+				D528422EFA6E876E67A9402297C82581 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		83BD20062E2EC97B04D996850C720277 /* Products */ = {
+		99849660D546E60731C4B759ECA5D152 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2C3B30C81646DDA6E587604F5EB563F /* AliyunContentDetect.framework */,
-				60BDA3E76AF2E3F407FECEE199945B44 /* Pods_AliyunContentDetect_Example.framework */,
-				1E7B043615A0828FF9EFDB13F2EDABA4 /* Pods_AliyunContentDetect_Tests.framework */,
+				F63D9A932B83954EC1138886A762A606 /* libAliyunContentDetect.a */,
+				EE327DBB7CD4D2ED40F6F4E1849AF176 /* libPods-AliyunContentDetect_Example.a */,
+				A785EE549E393DE1F52F2E0E58591CB4 /* libPods-AliyunContentDetect_Tests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,13 +150,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CAB5F888B51369B32DAE6B5B34C17480 /* Targets Support Files */ = {
+		C46E9276452700D0ED1CADA3AF85A4C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2DC64173F88B87D062F13FF9E3637FA7 /* Pods-AliyunContentDetect_Example */,
-				22BFE853B244D798CD59BBD2682D6802 /* Pods-AliyunContentDetect_Tests */,
+				B810778F5F53E4EE2E39FC60471C97D6 /* AliyunContentDetect.xcconfig */,
+				E23FAF4A5385EA91C21A3A1952D6A1BA /* AliyunContentDetect-dummy.m */,
+				575F0A49861736D055085FB2147EBC43 /* AliyunContentDetect-prefix.pch */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AliyunContentDetect";
+			sourceTree = "<group>";
+		};
+		CA04B7C0AB22D10D8A4BF8FA62678097 /* AliyunContentDetect */ = {
+			isa = PBXGroup;
+			children = (
+				E51497D35DEFAA357C4C43E47490B48E /* AliyunContentDetect */,
+				C46E9276452700D0ED1CADA3AF85A4C0 /* Support Files */,
+			);
+			name = AliyunContentDetect;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -221,10 +179,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D528422EFA6E876E67A9402297C82581 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2335D1F5E61CC757EFDC54A647B1766 /* Pods-AliyunContentDetect_Example */,
+				77C84B587C8C03B9189412ED7A67F9FB /* Pods-AliyunContentDetect_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E51497D35DEFAA357C4C43E47490B48E /* AliyunContentDetect */ = {
+			isa = PBXGroup;
+			children = (
+				4599E303291B4F0C45D1F87D7CF8976F /* Classes */,
+			);
+			name = AliyunContentDetect;
+			path = AliyunContentDetect;
+			sourceTree = "<group>";
+		};
 		E57C4FC8149311805764374B587F80DF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D30C993F9A38751A6DBCD733C25D187 /* AliyunContentDetect */,
+				CA04B7C0AB22D10D8A4BF8FA62678097 /* AliyunContentDetect */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -250,6 +226,21 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		F2335D1F5E61CC757EFDC54A647B1766 /* Pods-AliyunContentDetect_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D89ADA8986859F5CDE74A0CDFBB16BD /* Pods-AliyunContentDetect_Example-acknowledgements.markdown */,
+				A1FE1AA91233E77F05E20C79FB39D1B3 /* Pods-AliyunContentDetect_Example-acknowledgements.plist */,
+				74E0CF1CF49ADC2A109D21417CBB3113 /* Pods-AliyunContentDetect_Example-dummy.m */,
+				57BD3533152E473325879312E1F6BCCE /* Pods-AliyunContentDetect_Example-frameworks.sh */,
+				D4B8DE0F1E8603A4478F133F06C90C7B /* Pods-AliyunContentDetect_Example-resources.sh */,
+				E29E6107EFDAEC3C98717F0677637030 /* Pods-AliyunContentDetect_Example.debug.xcconfig */,
+				69FCFD385009215D0EBC05CFC9A01655 /* Pods-AliyunContentDetect_Example.release.xcconfig */,
+			);
+			name = "Pods-AliyunContentDetect_Example";
+			path = "Target Support Files/Pods-AliyunContentDetect_Example";
+			sourceTree = "<group>";
+		};
 		F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,52 +257,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FB6689B764E1DC53C48AD8628E7A048F /* AliyunContentDetect */ = {
-			isa = PBXGroup;
-			children = (
-				6C4A735A0441EE0BE1414B651590C5A7 /* Classes */,
-			);
-			name = AliyunContentDetect;
-			path = AliyunContentDetect;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		372833C09B40B93858682D68472A9810 /* Headers */ = {
+		CA099543D48CCB2C54C40DAFD43BBD8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E394C9AC66532D1045A7E7B06418AFD /* Pods-AliyunContentDetect_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		909C7865B8BAC6D8499DAA9AD88E055F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6461ADAF53CDA2AAC1FD91DD6C8D621B /* AliyunContentDetect-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9712F0C80E04403CA10B78EA3C53D88C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9669A1326FCB573F1BB692E0A9FA1DE /* Pods-AliyunContentDetect_Example-umbrella.h in Headers */,
+				4AA4A80323A52EA8AEC64F0C1A342754 /* AliyunContentDetectService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		185843E2CB11E171BE87472B7248F8B4 /* Pods-AliyunContentDetect_Tests */ = {
+		0E92326017FBCA83167578C24481D25C /* Pods-AliyunContentDetect_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89BF9298F56AE0581C3700A028E8EB92 /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Tests" */;
+			buildConfigurationList = FD186497112DD3A8345AF4BD65AD6B43 /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Example" */;
 			buildPhases = (
-				E65ACA7BEF47BA8379FEF2893987387F /* Sources */,
-				8D6639543DAD6226AC07926704191E0C /* Frameworks */,
-				372833C09B40B93858682D68472A9810 /* Headers */,
+				C682E19520C719DD88F7F91CCAA03E25 /* Sources */,
+				6FFF56C52FBCEB473C3E56A8BB3EFFCD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8F217DC421C7CC49EF926C0EE6765C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-AliyunContentDetect_Example";
+			productName = "Pods-AliyunContentDetect_Example";
+			productReference = EE327DBB7CD4D2ED40F6F4E1849AF176 /* libPods-AliyunContentDetect_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		73624AB9FC2619DA50AB112640D577C7 /* Pods-AliyunContentDetect_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817C944B97F5D4FCF1B0A0FB240313AA /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Tests" */;
+			buildPhases = (
+				8540E014609793281E35191BFD15B688 /* Sources */,
+				3EEE5A98794021493112A7B62534AB9D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,34 +301,16 @@
 			);
 			name = "Pods-AliyunContentDetect_Tests";
 			productName = "Pods-AliyunContentDetect_Tests";
-			productReference = 1E7B043615A0828FF9EFDB13F2EDABA4 /* Pods_AliyunContentDetect_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = A785EE549E393DE1F52F2E0E58591CB4 /* libPods-AliyunContentDetect_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		C752261BCD043EE257ED4916A4A1F126 /* Pods-AliyunContentDetect_Example */ = {
+		898FFBBA39E9D8F9B503C77692F1501F /* AliyunContentDetect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE7AC98582387605783BC3C01BAEE346 /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Example" */;
+			buildConfigurationList = F3E7CD76EBEA546C7FB52FF59F91A5D6 /* Build configuration list for PBXNativeTarget "AliyunContentDetect" */;
 			buildPhases = (
-				A4EAACDDA2CD1953E4770CF7829B57E1 /* Sources */,
-				E83FF3239A56AC445DB818D523D10C87 /* Frameworks */,
-				9712F0C80E04403CA10B78EA3C53D88C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DFE720D70CC2589EB4787582DC071292 /* PBXTargetDependency */,
-			);
-			name = "Pods-AliyunContentDetect_Example";
-			productName = "Pods-AliyunContentDetect_Example";
-			productReference = 60BDA3E76AF2E3F407FECEE199945B44 /* Pods_AliyunContentDetect_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E3225C8EB6E446C29920C43770BB0274 /* AliyunContentDetect */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5644916012BBDBE308C7F1C56BFC754 /* Build configuration list for PBXNativeTarget "AliyunContentDetect" */;
-			buildPhases = (
-				4F70357B4AC5FC89995027BE59609869 /* Sources */,
-				E26C3003FDECCFD7EED3A5DD0EC28B5E /* Frameworks */,
-				909C7865B8BAC6D8499DAA9AD88E055F /* Headers */,
+				1BCBBF9A4C030D768886F9631E4EE6F7 /* Sources */,
+				234F6B4361F89BDFBC79F08265FCDAC8 /* Frameworks */,
+				CA099543D48CCB2C54C40DAFD43BBD8C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -354,8 +318,8 @@
 			);
 			name = AliyunContentDetect;
 			productName = AliyunContentDetect;
-			productReference = B2C3B30C81646DDA6E587604F5EB563F /* AliyunContentDetect.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = F63D9A932B83954EC1138886A762A606 /* libAliyunContentDetect.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -374,90 +338,77 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 83BD20062E2EC97B04D996850C720277 /* Products */;
+			productRefGroup = 99849660D546E60731C4B759ECA5D152 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3225C8EB6E446C29920C43770BB0274 /* AliyunContentDetect */,
-				C752261BCD043EE257ED4916A4A1F126 /* Pods-AliyunContentDetect_Example */,
-				185843E2CB11E171BE87472B7248F8B4 /* Pods-AliyunContentDetect_Tests */,
+				898FFBBA39E9D8F9B503C77692F1501F /* AliyunContentDetect */,
+				0E92326017FBCA83167578C24481D25C /* Pods-AliyunContentDetect_Example */,
+				73624AB9FC2619DA50AB112640D577C7 /* Pods-AliyunContentDetect_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F70357B4AC5FC89995027BE59609869 /* Sources */ = {
+		1BCBBF9A4C030D768886F9631E4EE6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D794C9AE4522EB0209A3F1A7E2E38FFE /* AliyunContentDetect-dummy.m in Sources */,
-				BE4C8E63763AE32A59AFD9C6FEB16714 /* ReplaceMe.m in Sources */,
+				839D113E0C78800133A4E5460BF18479 /* AliyunContentDetect-dummy.m in Sources */,
+				2160003066CCBA1CAC615C1373EE5097 /* AliyunContentDetectService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4EAACDDA2CD1953E4770CF7829B57E1 /* Sources */ = {
+		8540E014609793281E35191BFD15B688 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC3A40D0C0F14A68BADC8F0B0C81802 /* Pods-AliyunContentDetect_Example-dummy.m in Sources */,
+				27EC3952B314F853C1BAD2284D27A3BC /* Pods-AliyunContentDetect_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E65ACA7BEF47BA8379FEF2893987387F /* Sources */ = {
+		C682E19520C719DD88F7F91CCAA03E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450ED78C857874839ED1C22B115C6510 /* Pods-AliyunContentDetect_Tests-dummy.m in Sources */,
+				E2328B1A533299F80E378F8C98E9C394 /* Pods-AliyunContentDetect_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DFE720D70CC2589EB4787582DC071292 /* PBXTargetDependency */ = {
+		C8F217DC421C7CC49EF926C0EE6765C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AliyunContentDetect;
-			target = E3225C8EB6E446C29920C43770BB0274 /* AliyunContentDetect */;
-			targetProxy = B76D027F05E27E9E5655E919823A2107 /* PBXContainerItemProxy */;
+			target = 898FFBBA39E9D8F9B503C77692F1501F /* AliyunContentDetect */;
+			targetProxy = 2008896EB14042E0C7853C49B55CB313 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		230F0664EB787E948BDA5AACB1A7C5D2 /* Debug */ = {
+		11A8845B2950A93C98DD5B185529F2C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40FE03D8835DC802551C60C91B1B74E2 /* Pods-AliyunContentDetect_Tests.debug.xcconfig */;
+			baseConfigurationReference = AAFE1D9217255BB747B4DCF94FF6E038 /* Pods-AliyunContentDetect_Tests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AliyunContentDetect_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AliyunContentDetect_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -503,73 +454,74 @@
 			};
 			name = Release;
 		};
-		9DEB5015E24355A619F54AD98C3F9973 /* Release */ = {
+		3A9D795A55460AB9EEFF92A065C4E35B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECE0D2149753064716A10A4EC6A5E4BF /* AliyunContentDetect.xcconfig */;
+			baseConfigurationReference = 8E0773C54EF4BAA3C75B0F33FC5E7497 /* Pods-AliyunContentDetect_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AliyunContentDetect/AliyunContentDetect-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AliyunContentDetect/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AliyunContentDetect/AliyunContentDetect.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AliyunContentDetect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BFB53762CD368658B0AB3859FA6B80A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BA2A21020D735BEA7F6100CAD64B6FD /* Pods-AliyunContentDetect_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AliyunContentDetect_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliyunContentDetect_Example/Pods-AliyunContentDetect_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AliyunContentDetect_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		AB3ABB92AA052D4B72122F001800BC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B810778F5F53E4EE2E39FC60471C97D6 /* AliyunContentDetect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunContentDetect/AliyunContentDetect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB721EB162ACBB83FC75702D32B7001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B810778F5F53E4EE2E39FC60471C97D6 /* AliyunContentDetect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunContentDetect/AliyunContentDetect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -619,107 +571,49 @@
 			};
 			name = Debug;
 		};
-		CFD8E145D4B63344C3B05D54D804EBEA /* Release */ = {
+		F4C7838179D9303933B7E9AF1C1CCEFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570F1BF60FF47641F2B5214517F8413E /* Pods-AliyunContentDetect_Example.release.xcconfig */;
+			baseConfigurationReference = 69FCFD385009215D0EBC05CFC9A01655 /* Pods-AliyunContentDetect_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AliyunContentDetect_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliyunContentDetect_Example/Pods-AliyunContentDetect_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AliyunContentDetect_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E4D0731E9104DA1012E4794C2403BE05 /* Release */ = {
+		F96727DE5AACED648A6A9C964E68CF63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 461F213E0F06216E1F91142B126290FA /* Pods-AliyunContentDetect_Tests.release.xcconfig */;
+			baseConfigurationReference = E29E6107EFDAEC3C98717F0677637030 /* Pods-AliyunContentDetect_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AliyunContentDetect_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AliyunContentDetect_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EEEB6384220F0D51A5B3E2DF3FE56CF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECE0D2149753064716A10A4EC6A5E4BF /* AliyunContentDetect.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AliyunContentDetect/AliyunContentDetect-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AliyunContentDetect/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AliyunContentDetect/AliyunContentDetect.modulemap";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AliyunContentDetect;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -735,29 +629,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89BF9298F56AE0581C3700A028E8EB92 /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Tests" */ = {
+		817C944B97F5D4FCF1B0A0FB240313AA /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				230F0664EB787E948BDA5AACB1A7C5D2 /* Debug */,
-				E4D0731E9104DA1012E4794C2403BE05 /* Release */,
+				3A9D795A55460AB9EEFF92A065C4E35B /* Debug */,
+				11A8845B2950A93C98DD5B185529F2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE7AC98582387605783BC3C01BAEE346 /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Example" */ = {
+		F3E7CD76EBEA546C7FB52FF59F91A5D6 /* Build configuration list for PBXNativeTarget "AliyunContentDetect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB53762CD368658B0AB3859FA6B80A9 /* Debug */,
-				CFD8E145D4B63344C3B05D54D804EBEA /* Release */,
+				AB3ABB92AA052D4B72122F001800BC7B /* Debug */,
+				AB721EB162ACBB83FC75702D32B7001A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5644916012BBDBE308C7F1C56BFC754 /* Build configuration list for PBXNativeTarget "AliyunContentDetect" */ = {
+		FD186497112DD3A8345AF4BD65AD6B43 /* Build configuration list for PBXNativeTarget "Pods-AliyunContentDetect_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEEB6384220F0D51A5B3E2DF3FE56CF0 /* Debug */,
-				9DEB5015E24355A619F54AD98C3F9973 /* Release */,
+				F96727DE5AACED648A6A9C964E68CF63 /* Debug */,
+				F4C7838179D9303933B7E9AF1C1CCEFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

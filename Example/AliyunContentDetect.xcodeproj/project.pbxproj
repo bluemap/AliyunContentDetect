@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A45162CE5A7E77B411336BD /* Pods_AliyunContentDetect_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381D5006A58E2838D3BF0E6F /* Pods_AliyunContentDetect_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		650B5FA77148AC3FA3B64224 /* libPods-AliyunContentDetect_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9FD193405675C7DBED5421 /* libPods-AliyunContentDetect_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CE10E83EEA424A8F74765F2C /* Pods_AliyunContentDetect_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0097C783E48E5D5B2058825 /* Pods_AliyunContentDetect_Example.framework */; };
+		E1138DBA54DCA49DD22A0320 /* libPods-AliyunContentDetect_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4B1D8AB92DFDC8E0AAFCB5 /* libPods-AliyunContentDetect_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		0A03BA3272EC7D9D43C6D465 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		330AF9926547245F62E5C63A /* AliyunContentDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AliyunContentDetect.podspec; path = ../AliyunContentDetect.podspec; sourceTree = "<group>"; };
 		34C93D3C8883A2742D6DF079 /* Pods-AliyunContentDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Example/Pods-AliyunContentDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		381D5006A58E2838D3BF0E6F /* Pods_AliyunContentDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunContentDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AliyunContentDetect_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliyunContentDetect_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +62,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0097C783E48E5D5B2058825 /* Pods_AliyunContentDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunContentDetect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4B1D8AB92DFDC8E0AAFCB5 /* libPods-AliyunContentDetect_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliyunContentDetect_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9FD193405675C7DBED5421 /* libPods-AliyunContentDetect_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliyunContentDetect_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5BE685099050D229FD3C9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEAD5EA80D9B1114EE4CE11E /* Pods-AliyunContentDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB447202432A94AAACEEE84D /* Pods-AliyunContentDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CE10E83EEA424A8F74765F2C /* Pods_AliyunContentDetect_Example.framework in Frameworks */,
+				650B5FA77148AC3FA3B64224 /* libPods-AliyunContentDetect_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5A45162CE5A7E77B411336BD /* Pods_AliyunContentDetect_Tests.framework in Frameworks */,
+				E1138DBA54DCA49DD22A0320 /* libPods-AliyunContentDetect_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A0097C783E48E5D5B2058825 /* Pods_AliyunContentDetect_Example.framework */,
-				381D5006A58E2838D3BF0E6F /* Pods_AliyunContentDetect_Tests.framework */,
+				9C9FD193405675C7DBED5421 /* libPods-AliyunContentDetect_Example.a */,
+				9B4B1D8AB92DFDC8E0AAFCB5 /* libPods-AliyunContentDetect_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
