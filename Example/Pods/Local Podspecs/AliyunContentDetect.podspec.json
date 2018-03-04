@@ -1,0 +1,22 @@
+{
+  "name": "AliyunContentDetect",
+  "version": "0.1.0",
+  "summary": "A short description of AliyunContentDetect.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lijin/AliyunContentDetect",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lijin": "lj100436@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/lijin/AliyunContentDetect.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AliyunContentDetect/Classes/**/*"
+}

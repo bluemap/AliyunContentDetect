@@ -1,0 +1,16 @@
+PODS:
+  - AliyunContentDetect (0.1.0)
+
+DEPENDENCIES:
+  - AliyunContentDetect (from `../`)
+
+EXTERNAL SOURCES:
+  AliyunContentDetect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliyunContentDetect: 777df0dca7418641c53e7eaa66e650b9f7ae3c08
+
+PODFILE CHECKSUM: 9b6b0ac2a9472a1f7dd576b88e845892e03366ea
+
+COCOAPODS: 1.2.1

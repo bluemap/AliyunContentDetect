@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		06E4BD17F9A45E24E6EFFD0D /* Pods-AliyunContentDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Example/Pods-AliyunContentDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0A03BA3272EC7D9D43C6D465 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		330AF9926547245F62E5C63A /* AliyunContentDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunContentDetect.podspec; path = ../AliyunContentDetect.podspec; sourceTree = "<group>"; };
+		0A03BA3272EC7D9D43C6D465 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		330AF9926547245F62E5C63A /* AliyunContentDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AliyunContentDetect.podspec; path = ../AliyunContentDetect.podspec; sourceTree = "<group>"; };
 		34C93D3C8883A2742D6DF079 /* Pods-AliyunContentDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Example/Pods-AliyunContentDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		381D5006A58E2838D3BF0E6F /* Pods_AliyunContentDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunContentDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AliyunContentDetect_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliyunContentDetect_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0097C783E48E5D5B2058825 /* Pods_AliyunContentDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunContentDetect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5BE685099050D229FD3C9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BF5BE685099050D229FD3C9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEAD5EA80D9B1114EE4CE11E /* Pods-AliyunContentDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB447202432A94AAACEEE84D /* Pods-AliyunContentDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -479,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
