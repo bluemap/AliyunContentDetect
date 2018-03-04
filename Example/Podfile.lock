@@ -1,7 +1,9 @@
 PODS:
+  - AFNetworking (3.1.0.14)
   - AliyunContentDetect (0.1.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.0)
   - AliyunContentDetect (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: 065650da95fe0af5375e34db74c3fcee91e71315
   AliyunContentDetect: 0a439a710272f0015550bf24fe1431e9a1bd1aaf
 
-PODFILE CHECKSUM: f496c30dab669e9a6dd6a4527ed6368afd65ee31
+PODFILE CHECKSUM: 71d383e5bd2164497d684ba3d93bba6024c39701
 
 COCOAPODS: 1.2.1

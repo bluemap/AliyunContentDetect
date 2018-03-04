@@ -1,9 +1,11 @@
 use_frameworks!
-source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+ali_source 'alibaba-specs'
+ali_source 'alibaba-specs-mirror'
 
 target 'AliyunContentDetect_Example' do
   pod 'AliyunContentDetect', :path => '../'
-  pod 'AFNetworking', '~> 3.0'
+  #pod 'AFNetworking'
   
   end
 

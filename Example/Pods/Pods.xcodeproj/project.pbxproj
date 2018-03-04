@@ -32,6 +32,8 @@
 /* Begin PBXFileReference section */
 		06C74CF7C96C93DC0FBDEC9FCBDA3BC4 /* Pods-AliyunContentDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0C06C589EDBF3B95CE9D608ADBE5E963 /* Pods-AliyunContentDetect_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Example-resources.sh"; sourceTree = "<group>"; };
+		0D440E08C423A6962B80DD103B529198 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking.framework/Headers/AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		14C20088686674B5FF5994375B878769 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking.framework/Headers/AFJSONRequestOperation.h; sourceTree = "<group>"; };
 		1E7B043615A0828FF9EFDB13F2EDABA4 /* Pods_AliyunContentDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliyunContentDetect_Tests.framework; path = "Pods-AliyunContentDetect_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2009CD59BB0D80A1C818CC7D63D7F238 /* Pods-AliyunContentDetect_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2E5AFD5D07811C2C78446929F1AD4C11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,28 +41,39 @@
 		40FE03D8835DC802551C60C91B1B74E2 /* Pods-AliyunContentDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		461F213E0F06216E1F91142B126290FA /* Pods-AliyunContentDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A03169D9BA427333B114C8E9100F4C5 /* Pods-AliyunContentDetect_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunContentDetect_Tests-resources.sh"; sourceTree = "<group>"; };
+		4EE6CB304F1EC66BBD4AF2B094045D85 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		500DD15675D0E16E5EBC3564F4FD0F64 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
 		506D8946E63B7CCF94CF5D209639CB3F /* AliyunContentDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AliyunContentDetect.modulemap; sourceTree = "<group>"; };
+		5374ED084A2884D25E60270944C97281 /* AFHTTPRequestOperationLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationLogger.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperationLogger.h; sourceTree = "<group>"; };
 		570F1BF60FF47641F2B5214517F8413E /* Pods-AliyunContentDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		600ED8FBE0330E2203A3CFE3E732AAA9 /* AliyunContentDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunContentDetect-dummy.m"; sourceTree = "<group>"; };
 		60BDA3E76AF2E3F407FECEE199945B44 /* Pods_AliyunContentDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliyunContentDetect_Example.framework; path = "Pods-AliyunContentDetect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		648A0EE3B149CC36423C9D0C635B725B /* Pods-AliyunContentDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunContentDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64FF97BA509C7BD49726FF8D3B492C7B /* Pods-AliyunContentDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AliyunContentDetect_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66CB371FB9BC17A9DD6F71BC45C07EE0 /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking.framework/Headers/AFHTTPClient.h; sourceTree = "<group>"; };
 		71483239236DCC43916A041106B9E637 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		792937693F4EAD34D51B2D2B165B5DEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A19B81037AE0D6BA55DD3524FD25D65 /* Pods-AliyunContentDetect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliyunContentDetect_Example-umbrella.h"; sourceTree = "<group>"; };
 		7BA2A21020D735BEA7F6100CAD64B6FD /* Pods-AliyunContentDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunContentDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB0D838EE15420608FCD56DB5D5C084 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		83F3D4837E848CB1C745BE6CF792A3F7 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking.framework/Headers/AFImageRequestOperation.h; sourceTree = "<group>"; };
 		8823EBCCC91B0AC3F85F9CA5D9FD66D1 /* Pods-AliyunContentDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunContentDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A68596E89528867CD5EE138B97BE5B0 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking.framework/Headers/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
 		A46D6138100FFAA23E4BC3AD64187507 /* Pods-AliyunContentDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliyunContentDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B2C3B30C81646DDA6E587604F5EB563F /* AliyunContentDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliyunContentDetect.framework; path = AliyunContentDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68AB6CAAE5CDAA9CFA74983E84ED77E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EC42F54251CF288066FDAB59800368 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking.framework/Headers/AFURLConnectionOperation.h; sourceTree = "<group>"; };
 		B93B3A8EE132AFCC9C9F9BE868DC8EE8 /* Pods-AliyunContentDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunContentDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBFF2E3EB4301D453C32FFAA443841CE /* Pods-AliyunContentDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunContentDetect_Example-dummy.m"; sourceTree = "<group>"; };
 		DD8346D4FB78F772D422F896E18447AE /* Pods-AliyunContentDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunContentDetect_Tests-dummy.m"; sourceTree = "<group>"; };
+		E4576A32C840FF467DB1667577BC57E6 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFDownloadRequestOperation.h; path = AFNetworking.framework/Headers/AFDownloadRequestOperation.h; sourceTree = "<group>"; };
 		E91F2665C321A7CF00A6520521B89EE4 /* Pods-AliyunContentDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AliyunContentDetect_Example.modulemap"; sourceTree = "<group>"; };
 		ECE0D2149753064716A10A4EC6A5E4BF /* AliyunContentDetect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunContentDetect.xcconfig; sourceTree = "<group>"; };
 		ED436E62F31309604862781266E03ECC /* Pods-AliyunContentDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunContentDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F39E1A17C5F7CCAAF514FC9726E8DD92 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking.framework/Headers/AFNetworking.h; sourceTree = "<group>"; };
+		F7619B3D11FA4A318415A95FAD3B6A0B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking.framework/Headers/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		F9F0B068AFD8D9185613416578227AF9 /* AliyunContentDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunContentDetect-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +180,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E57C4FC8149311805764374B587F80DF /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */,
 				83BD20062E2EC97B04D996850C720277 /* Products */,
 				CAB5F888B51369B32DAE6B5B34C17480 /* Targets Support Files */,
 			);
@@ -213,6 +227,43 @@
 				1D30C993F9A38751A6DBCD733C25D187 /* AliyunContentDetect */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E8B3B70DF3F707CBC5559DF7C5199C3B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E4576A32C840FF467DB1667577BC57E6 /* AFDownloadRequestOperation.h */,
+				66CB371FB9BC17A9DD6F71BC45C07EE0 /* AFHTTPClient.h */,
+				4EE6CB304F1EC66BBD4AF2B094045D85 /* AFHTTPRequestOperation.h */,
+				5374ED084A2884D25E60270944C97281 /* AFHTTPRequestOperationLogger.h */,
+				83F3D4837E848CB1C745BE6CF792A3F7 /* AFImageRequestOperation.h */,
+				14C20088686674B5FF5994375B878769 /* AFJSONRequestOperation.h */,
+				7DB0D838EE15420608FCD56DB5D5C084 /* AFNetworkActivityIndicatorManager.h */,
+				F39E1A17C5F7CCAAF514FC9726E8DD92 /* AFNetworking.h */,
+				9A68596E89528867CD5EE138B97BE5B0 /* AFPropertyListRequestOperation.h */,
+				B8EC42F54251CF288066FDAB59800368 /* AFURLConnectionOperation.h */,
+				0D440E08C423A6962B80DD103B529198 /* AFXMLRequestOperation.h */,
+				F7619B3D11FA4A318415A95FAD3B6A0B /* UIImageView+AFNetworking.h */,
+				F95392D7592B1799177C3B85F922A76F /* Frameworks */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8B3B70DF3F707CBC5559DF7C5199C3B /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F95392D7592B1799177C3B85F922A76F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500DD15675D0E16E5EBC3564F4FD0F64 /* AFNetworking.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FB6689B764E1DC53C48AD8628E7A048F /* AliyunContentDetect */ = {
