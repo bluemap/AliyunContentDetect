@@ -1,18 +1,18 @@
 {
   "name": "AliyunContentDetect",
   "version": "0.1.0",
-  "summary": "A short description of AliyunContentDetect.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lijin/AliyunContentDetect",
+  "summary": "aliyun content detect service",
+  "description": "阿里云内容安全服务SDK，包括图片鉴黄服务，图片涉政识别，OCR图文识别，图片广告识别，视频涉黄、涉政等检测.",
+  "homepage": "https://github.com/bluemap/AliyunContentDetect",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lijin": "lj100436@alibaba-inc.com"
+    "lijin": "bluemap@163.com"
   },
   "source": {
-    "git": "https://github.com/lijin/AliyunContentDetect.git",
+    "git": "https://github.com/bluemap/AliyunContentDetect.git",
     "tag": "0.1.0"
   },
   "platforms": {

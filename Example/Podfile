@@ -1,11 +1,14 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AliyunContentDetect_Example' do
   pod 'AliyunContentDetect', :path => '../'
+  pod 'AFNetworking', '~> 3.0'
+  
+  end
 
   target 'AliyunContentDetect_Tests' do
     inherit! :search_paths
 
     
   end
-end

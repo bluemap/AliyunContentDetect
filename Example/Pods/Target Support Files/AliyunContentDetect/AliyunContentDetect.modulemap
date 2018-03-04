@@ -1,6 +1,0 @@
-framework module AliyunContentDetect {
-  umbrella header "AliyunContentDetect-umbrella.h"
-
-  export *
-  module * { export * }
-}
