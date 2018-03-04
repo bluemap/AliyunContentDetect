@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AliyunContentDetect_Example' do
+  pod 'AliyunContentDetect', :path => '../'
+
+  target 'AliyunContentDetect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
