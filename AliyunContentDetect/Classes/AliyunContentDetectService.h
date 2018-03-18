@@ -15,6 +15,7 @@
 @interface AliyunContentDetectService : NSObject
 
 + (void)setAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey;
+
 + (id)sharedInstance;
 
 @end

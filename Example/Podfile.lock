@@ -1,20 +1,46 @@
 PODS:
-  - AFNetworking (3.1.0.14)
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
   - AliyunContentDetect (0.1.0):
-    - AFNetworking
+    - AFNetworking (~> 3.2.0)
+    - Base64nl (~> 1.2)
+    - NSString-Hash
+    - NSString-UrlEncode
+  - Base64nl (1.2)
+  - NSString-Hash (0.0.1)
+  - NSString-UrlEncode (2.1.0)
 
 DEPENDENCIES:
-  - AFNetworking
+  - AFNetworking (= 3.2.0)
   - AliyunContentDetect (from `../`)
+  - Base64nl (~> 1.2)
+  - NSString-Hash
+  - NSString-UrlEncode
 
 EXTERNAL SOURCES:
   AliyunContentDetect:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  AFNetworking: 065650da95fe0af5375e34db74c3fcee91e71315
-  AliyunContentDetect: 8ca5ccb881c94543c76d2d425b025350e5ca7f1e
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  AliyunContentDetect: b96dc426c750d4631982cf0ad57f006eb05ae1af
+  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  NSString-Hash: 59c428d8a5f0f85ec443ef9865107832b8a845e7
+  NSString-UrlEncode: 92dcb01cac33ef036cda76baf0e4378b18779e47
 
-PODFILE CHECKSUM: ced6c1d3380d1a43a1750c300a93314b8994d92e
+PODFILE CHECKSUM: 45563d271f0be20593af71e08ea27e980c2f712e
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0

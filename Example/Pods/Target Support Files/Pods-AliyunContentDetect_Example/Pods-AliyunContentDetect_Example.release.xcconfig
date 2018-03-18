@@ -1,10 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AFNetworking"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AliyunContentDetect"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AliyunContentDetect"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AliyunContentDetect"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AliyunContentDetect" -framework "AFNetworking"
-PODS_BUILD_DIR = $BUILD_DIR
-PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AliyunContentDetect" "${PODS_ROOT}/Headers/Public/Base64nl" "${PODS_ROOT}/Headers/Public/NSString-Hash" "${PODS_ROOT}/Headers/Public/NSString-UrlEncode"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/AliyunContentDetect" "${PODS_CONFIGURATION_BUILD_DIR}/Base64nl" "${PODS_CONFIGURATION_BUILD_DIR}/NSString-Hash" "${PODS_CONFIGURATION_BUILD_DIR}/NSString-UrlEncode"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AliyunContentDetect" -isystem "${PODS_ROOT}/Headers/Public/Base64nl" -isystem "${PODS_ROOT}/Headers/Public/NSString-Hash" -isystem "${PODS_ROOT}/Headers/Public/NSString-UrlEncode"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"AliyunContentDetect" -l"Base64nl" -l"NSString-Hash" -l"NSString-UrlEncode" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
