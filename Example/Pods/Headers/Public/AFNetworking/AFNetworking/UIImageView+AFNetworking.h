@@ -1,1 +1,0 @@
-../../../../AFNetworking/AFNetworking.framework/Headers/UIImageView+AFNetworking.h

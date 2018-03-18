@@ -1,1 +1,0 @@
-../../../../AFNetworking/AFNetworking.framework/Headers/AFJSONRequestOperation.h
