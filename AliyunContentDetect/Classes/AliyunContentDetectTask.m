@@ -6,10 +6,12 @@
 //
 
 #import "AliyunContentDetectTask.h"
-#import "NSData+MD5.h"
 #import <Base64.h>
-#import "AliyunTaskParamUtility.h"
 #import <AFNetworking.h>
+#import <NSString+Hash.h>
+#import "AliyunTaskParamUtility.h"
+#import "NSData+MD5.h"
+
 
 #define kHeaderAccept       @"Accept"
 #define kHeaderContentType  @"Content-Type"
@@ -29,10 +31,28 @@
 
 
 @interface AliyunContentDetectTask()
+
 @property (nonatomic, strong) AFURLSessionManager *manager;
+
+@property (nonatomic, strong) NSString *accessKey;
+@property (nonatomic, strong) NSString *baseAddr;
+@property (nonatomic, strong) NSString *uri;
+
 @end
 
 @implementation AliyunContentDetectTask
+
+- (id)initWithAccessKey:(NSString *)accessKey baseAddr:(NSString *)baseAddr uri:(NSString *)uri
+{
+    self = [super init];
+    if (self)
+    {
+        self.accessKey = accessKey;
+        self.baseAddr = baseAddr;
+        self.uri = uri;
+    }
+    return self;
+}
 
 - (NSString *)gmtTimeStr
 {
@@ -45,18 +65,60 @@
     return timeStr;
 }
 
-- (NSString *)signature
+- (NSString *)signatureWithHeaders:(NSDictionary *)headers
 {
-    return nil;
+    NSArray *sortedKeys = @[kHeaderxacsversion,
+                            kHeaderxacssignaturenonce,
+                            kHeaderxacssignatureversion,
+                            kHeaderxacssignaturemethod];
+    sortedKeys = [AliyunTaskParamUtility sortParamKeyArray:sortedKeys];
+    
+    NSString *headerSign = [AliyunTaskParamUtility signatureWithParams:headers sortedKeys:sortedKeys];
+    
+    return headerSign;
 }
 
-- (NSMutableURLRequest *)makeRequestWith:(NSDictionary *)parameters
+- (NSString *)signatureContentWithHeaders:(NSDictionary *)headers
 {
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:parameters options:NSJSONWritingPrettyPrinted error:nil];
+    NSString *signHeader = [self signatureWithHeaders:headers];
+    
+    NSMutableString *signContent = [[NSMutableString alloc] init];
+    [signContent appendString:@"POST"];
+    [signContent appendString:@"\n"];
+    [signContent appendString:@"application/json"];
+    [signContent appendString:@"\n"];
+    [signContent appendString:headers[kHeaderContentMD5]];
+    [signContent appendString:@"\n"];
+    [signContent appendString:@"application/json"];
+    [signContent appendString:@"\n"];
+    [signContent appendString:headers[kHeaderDate]];
+    [signContent appendString:@"\n"];
+    [signContent appendString:signHeader];
+    [signContent appendString:self.uri];
+    
+    return signContent;
+}
+
+- (NSString *)url
+{
+    if (self.uri.length > 0)
+    {
+        return [NSString stringWithFormat:@"%@%@",self.baseAddr,self.uri];
+    }
+    else
+    {
+        return self.baseAddr;
+    }
+}
+
+- (NSMutableURLRequest *)makeRequest
+{
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self.params options:NSJSONWritingPrettyPrinted error:nil];
     
     NSString *contentMD5 = [[jsonData md5Data]base64EncodedString];
     
     AFJSONRequestSerializer *serializer = [AFJSONRequestSerializer serializer];
+    
     [serializer setValue:@"application/json" forHTTPHeaderField:kHeaderAccept];
     [serializer setValue:@"application/json" forHTTPHeaderField:kHeaderContentType];
     [serializer setValue:contentMD5 forHTTPHeaderField:kHeaderContentMD5];//根据请求body计算所得，算法为先对body做md5，再做base64编码所得
@@ -66,32 +128,23 @@
     [serializer setValue:[AliyunTaskParamUtility UUIDString] forHTTPHeaderField:kHeaderxacssignaturenonce];
     [serializer setValue:@"1.0" forHTTPHeaderField:kHeaderxacssignatureversion];
     [serializer setValue:@"HMAC-SHA1" forHTTPHeaderField:kHeaderxacssignaturemethod];
-    [serializer setValue:[NSString stringWithFormat:@"acs %@:%@",_accessKey,[self signature]] forHTTPHeaderField:kHeaderAuthorization];//todo:
     
-    NSMutableURLRequest *request = [serializer requestWithMethod:@"POST" URLString:self.url parameters:nil error:nil];
+    NSString *signature = [self signatureContentWithHeaders:[serializer HTTPRequestHeaders]];
+    signature = [signature sha1String];
+    signature = [signature base64EncodedString];
+    
+    [serializer setValue:[NSString stringWithFormat:@"acs %@:%@",_accessKey,signature] forHTTPHeaderField:kHeaderAuthorization];
+    
+    NSMutableURLRequest *request = [serializer requestWithMethod:@"POST" URLString:[self url] parameters:nil error:nil];
+    
     [request setHTTPBody:jsonData];
     
     return request;
 }
 
-//{
-//    "scenes": ["porn"],
-//    "tasks": [
-//              {
-//                  "dataId": "test2NInmO$tAON6qYUrtCRgLo-1mwxdi",
-//                  "url": "https://img.alicdn.com/tfs/TB1urBOQFXXXXbMXFXXXXXXXXXX-1442-257.png"
-//              }
-//              ]
-//}
 - (void)startTask
 {
-    NSDictionary *parameters = nil;//todo:
-    AFJSONRequestSerializer *serializer = [AFJSONRequestSerializer serializer];
-    
-    NSMutableURLRequest * request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"POST"
-                                                                                  URLString:self.url
-                                                                                 parameters:parameters
-                                                                                      error:nil];
+    NSMutableURLRequest * request = [self makeRequest];
     request.timeoutInterval = 25.0;
     
     

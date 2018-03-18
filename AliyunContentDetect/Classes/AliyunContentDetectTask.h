@@ -9,7 +9,10 @@
 
 @interface AliyunContentDetectTask : NSObject
 
-@property (nonatomic, strong) NSString *accessKey;
-@property (nonatomic, strong) NSString *url;
+- (id)initWithAccessKey:(NSString *)accessKey baseAddr:(NSString *)baseAddr uri:(NSString *)uri;
+
+@property (nonatomic, strong) NSDictionary *params;
+
+- (void)startTask;
 
 @end

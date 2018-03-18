@@ -9,7 +9,6 @@
 #import "BMViewController.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AliyunContentDetect/AliyunContentDetectService.h>
-//#import <AliyunContentDetect/AliyunContentDetect-umbrella.h>b
 
 @interface BMViewController ()
 
@@ -41,6 +40,7 @@
 
 - (void)testBtnClicked:(UIButton *)sender
 {
-    [AliyunContentDetectService sharedInstance];
+    [AliyunContentDetectService setAccessKey:@"6i9h5df23p10nrcnogkrriy7" secretKey:@"40KKfzXJAz46um6dekrYglX4EEE="];
+    [[AliyunContentDetectService sharedInstance]pornDetectWithURL:@"http://pic.yesky.com/uploadImages/2015/131/14/33G2Z2V4TPSU.jpg"];
 }
 @end

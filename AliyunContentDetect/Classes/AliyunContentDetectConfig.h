@@ -8,7 +8,7 @@
 #ifndef AliyunContentDetectConfig_h
 #define AliyunContentDetectConfig_h
 
-#define kAliyunContentMainAddr  @"https://green.cn-shanghai.aliyuncs.com"
+#define kAliyunContentBaseAddr  @"https://green.cn-shanghai.aliyuncs.com"
 #define kPornDetectUri          @"/green/image/scan"
 
 #endif /* AliyunContentDetectConfig_h */

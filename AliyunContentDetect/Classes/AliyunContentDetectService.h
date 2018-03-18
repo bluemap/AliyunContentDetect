@@ -16,6 +16,8 @@
 
 + (void)setAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey;
 
-+ (id)sharedInstance;
++ (instancetype)sharedInstance;
+
+- (void)pornDetectWithURL:(NSString *)url;
 
 @end
