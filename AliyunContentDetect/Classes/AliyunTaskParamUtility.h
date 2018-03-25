@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define kSeparate           @"\n"
+
 @interface AliyunTaskParamUtility : NSObject
 
 + (NSString *)UUIDString;

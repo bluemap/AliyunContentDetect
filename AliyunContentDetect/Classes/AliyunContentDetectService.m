@@ -14,10 +14,14 @@
 #import <AFNetworking/AFNetworking.h>
 #import "AliyunContentDetectTask.h"
 #import "AliyunContentDetectConfig.h"
+#import "ObserverContainer.h"
+#import <NSString+Hash.h>
 
-@interface AliyunContentDetectService()
+@interface AliyunContentDetectService() <AliyunContentDetectTaskDelegate>
 
-@property (nonatomic, strong) AliyunContentDetectTask *pornTask;
+@property (nonatomic, strong) NSMutableDictionary *detectCache;
+@property (nonatomic, strong) NSMutableArray *tasks;
+@property (nonatomic, strong) ObserverContainer<NSObject<AliyunContentDetectServiceObserver> *> *observers;
 
 @end
 
@@ -42,6 +46,18 @@ static NSString *g_secretKey = nil;
     return g_instace;
 }
 
+- (id)init
+{
+    self = [super init];
+    if (self)
+    {
+        self.observers = [[ObserverContainer<NSObject<AliyunContentDetectServiceObserver> *> alloc]init];
+        self.detectCache = [[NSMutableDictionary alloc]init];
+        self.tasks = [[NSMutableArray alloc]init];
+    }
+    return self;
+}
+
 - (NSString *)accessKey
 {
     return g_accessKey;
@@ -52,6 +68,15 @@ static NSString *g_secretKey = nil;
     return g_secretKey;
 }
 
+- (void)addObserver:(NSObject<AliyunContentDetectServiceObserver> *)observer
+{
+    [self.observers addObserver:observer];
+}
+
+- (void)removeObserver:(NSObject<AliyunContentDetectServiceObserver> *)observer
+{
+    [self.observers removeObserver:observer];
+}
 /*
 {
     "scenes": ["porn"],
@@ -63,18 +88,46 @@ static NSString *g_secretKey = nil;
               ]
 }
 */
-- (void)pornDetectWithURL:(NSString *)url
+- (void)pornImageDetectWithURL:(NSString *)url
 {
-    NSDictionary *task = @{@"url":url};
+    NSDictionary *taskURL = @{@"url":url};
     
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     [params setObject:@[@"porn"] forKey:@"scenes"];
-    [params setObject:@[task] forKey:@"tasks"];
+    [params setObject:@[taskURL] forKey:@"tasks"];
     
-    self.pornTask = [[AliyunContentDetectTask alloc] initWithAccessKey:[self accessKey] baseAddr:kAliyunContentBaseAddr uri:kPornDetectUri];
-    self.pornTask.params = params;
-    [self.pornTask startTask];
+    AliyunContentDetectTask *detectTask = [[AliyunContentDetectTask alloc] initWithAccessKey:[self accessKey] secretKey:[self secretKey] baseAddr:kAliyunContentBaseAddr uri:kPornDetectUri];
+    detectTask.params = params;
+    detectTask.identify = [url md5String];
+    detectTask.delegate = self;
+    [detectTask startTask];
     
+    [self.tasks addObject:detectTask];
+}
+
+- (void)notifyContectDetectFinish:(NSDictionary *)result error:(NSError *)error
+{
+    [self.observers enumerateObjectsUsingBlock:^(NSObject<AliyunContentDetectServiceObserver> * _Nonnull observer, NSUInteger idx, BOOL * _Nonnull stop) {
+        
+        if ([observer respondsToSelector:@selector(contectDetectFinish:error:)])
+        {
+            [observer contectDetectFinish:result error:error];
+        }
+        
+    }];
+}
+
+#pragma mark AliyunContentDetectTaskDelegate
+- (void)taskFinished:(AliyunContentDetectTask *)task result:(NSDictionary *)result error:(NSError *)error
+{
+    if (result && [[result objectForKey:@"code"]integerValue] == 200)
+    {
+        [self.detectCache setObject:result forKey:task.identify];
+    }
+    
+    [self notifyContectDetectFinish:result error:error];
+    
+    [self.tasks removeObject:task];
 }
 
 @end

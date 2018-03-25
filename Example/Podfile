@@ -9,6 +9,7 @@ target 'AliyunContentDetect_Example' do
   pod 'Base64nl', '~> 1.2'
   pod 'NSString-Hash'
   pod 'NSString-UrlEncode'
+  pod 'CocoaSecurity'
   
   end
 target 'AliyunContentDetect_Tests' do

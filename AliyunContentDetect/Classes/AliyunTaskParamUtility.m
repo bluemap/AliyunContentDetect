@@ -38,7 +38,7 @@
         NSString *value = [params objectForKey:key];
         if (value)
         {
-            NSString *paramStr = [NSString stringWithFormat:@"%@:%@\n",key, value];
+            NSString *paramStr = [NSString stringWithFormat:@"%@:%@%@",key,value,kSeparate];
             [dataStr appendString:paramStr];
         }
     }

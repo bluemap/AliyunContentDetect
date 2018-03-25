@@ -8,10 +8,10 @@
 #import "AliyunContentDetectTask.h"
 #import <Base64.h>
 #import <AFNetworking.h>
-#import <NSString+Hash.h>
 #import "AliyunTaskParamUtility.h"
 #import "NSData+MD5.h"
-
+#import "CocoaSecurity.h"
+#import <NSString+URLEncode.h>
 
 #define kHeaderAccept       @"Accept"
 #define kHeaderContentType  @"Content-Type"
@@ -30,11 +30,13 @@
 #define kResponsData        @"data"
 
 
+
 @interface AliyunContentDetectTask()
 
 @property (nonatomic, strong) AFURLSessionManager *manager;
 
 @property (nonatomic, strong) NSString *accessKey;
+@property (nonatomic, strong) NSString *secretKey;
 @property (nonatomic, strong) NSString *baseAddr;
 @property (nonatomic, strong) NSString *uri;
 
@@ -42,12 +44,13 @@
 
 @implementation AliyunContentDetectTask
 
-- (id)initWithAccessKey:(NSString *)accessKey baseAddr:(NSString *)baseAddr uri:(NSString *)uri
+- (id)initWithAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey baseAddr:(NSString *)baseAddr uri:(NSString *)uri
 {
     self = [super init];
     if (self)
     {
         self.accessKey = accessKey;
+        self.secretKey = secretKey;
         self.baseAddr = baseAddr;
         self.uri = uri;
     }
@@ -84,15 +87,15 @@
     
     NSMutableString *signContent = [[NSMutableString alloc] init];
     [signContent appendString:@"POST"];
-    [signContent appendString:@"\n"];
+    [signContent appendString:kSeparate];
     [signContent appendString:@"application/json"];
-    [signContent appendString:@"\n"];
+    [signContent appendString:kSeparate];
     [signContent appendString:headers[kHeaderContentMD5]];
-    [signContent appendString:@"\n"];
+    [signContent appendString:kSeparate];
     [signContent appendString:@"application/json"];
-    [signContent appendString:@"\n"];
+    [signContent appendString:kSeparate];
     [signContent appendString:headers[kHeaderDate]];
-    [signContent appendString:@"\n"];
+    [signContent appendString:kSeparate];
     [signContent appendString:signHeader];
     [signContent appendString:self.uri];
     
@@ -130,8 +133,7 @@
     [serializer setValue:@"HMAC-SHA1" forHTTPHeaderField:kHeaderxacssignaturemethod];
     
     NSString *signature = [self signatureContentWithHeaders:[serializer HTTPRequestHeaders]];
-    signature = [signature sha1String];
-    signature = [signature base64EncodedString];
+    signature = [CocoaSecurity hmacSha1:signature hmacKey:self.secretKey].base64;
     
     [serializer setValue:[NSString stringWithFormat:@"acs %@:%@",_accessKey,signature] forHTTPHeaderField:kHeaderAuthorization];
     
@@ -154,7 +156,10 @@
     self.manager.responseSerializer = [AFJSONResponseSerializer serializer];
     
     NSURLSessionDataTask *dataTask = [self.manager dataTaskWithRequest:request uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
-        
+        if (self.delegate)
+        {
+            [self.delegate taskFinished:self result:responseObject error:error];
+        }
     }];
     
     [dataTask resume];
