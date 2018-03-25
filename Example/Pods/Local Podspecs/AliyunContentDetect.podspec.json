@@ -23,9 +23,6 @@
     "AFNetworking": [
       "~> 3.2.0"
     ],
-    "Base64nl": [
-      "~> 1.2"
-    ],
     "NSString-Hash": [
 
     ],

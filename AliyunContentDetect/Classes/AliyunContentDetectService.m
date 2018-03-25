@@ -16,6 +16,8 @@
 #import "AliyunContentDetectConfig.h"
 #import "ObserverContainer.h"
 #import <NSString+Hash.h>
+#import "AliyunTaskParamUtility.h"
+
 
 @interface AliyunContentDetectService() <AliyunContentDetectTaskDelegate>
 
@@ -90,15 +92,13 @@ static NSString *g_secretKey = nil;
 */
 - (void)pornImageDetectWithURL:(NSString *)url
 {
-    NSDictionary *taskURL = @{@"url":url};
+    NSString *identify = [url md5String];
     
-    NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    [params setObject:@[@"porn"] forKey:@"scenes"];
-    [params setObject:@[taskURL] forKey:@"tasks"];
+    NSDictionary *params = [AliyunTaskParamUtility taskParamsWithURL:url type:EImagePorn];
     
     AliyunContentDetectTask *detectTask = [[AliyunContentDetectTask alloc] initWithAccessKey:[self accessKey] secretKey:[self secretKey] baseAddr:kAliyunContentBaseAddr uri:kPornDetectUri];
     detectTask.params = params;
-    detectTask.identify = [url md5String];
+    detectTask.identify = identify;
     detectTask.delegate = self;
     [detectTask startTask];
     

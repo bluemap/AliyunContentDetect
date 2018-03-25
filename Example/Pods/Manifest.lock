@@ -16,22 +16,15 @@ PODS:
     - AFNetworking/NSURLSession
   - AliyunContentDetect (0.1.0):
     - AFNetworking (~> 3.2.0)
-    - Base64nl (~> 1.2)
     - CocoaSecurity
     - NSString-Hash
     - NSString-UrlEncode
-  - Base64nl (1.2)
   - CocoaSecurity (1.2.4)
   - NSString-Hash (0.0.1)
   - NSString-UrlEncode (2.1.0)
 
 DEPENDENCIES:
-  - AFNetworking (= 3.2.0)
   - AliyunContentDetect (from `../`)
-  - Base64nl (~> 1.2)
-  - CocoaSecurity
-  - NSString-Hash
-  - NSString-UrlEncode
 
 EXTERNAL SOURCES:
   AliyunContentDetect:
@@ -39,12 +32,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  AliyunContentDetect: 26b19a2400f786af12d1a69d2d3442907ddb6c4a
-  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  AliyunContentDetect: eda0af15c5d261654fbbf5d47c7a728ac87073c9
   CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
   NSString-Hash: 59c428d8a5f0f85ec443ef9865107832b8a845e7
   NSString-UrlEncode: 92dcb01cac33ef036cda76baf0e4378b18779e47
 
-PODFILE CHECKSUM: 1b05dc4dd2faf600eb33a6051480fea5d65c14e1
+PODFILE CHECKSUM: fa1dc634ce33fb0c9516da7d264794b94d59881f
 
 COCOAPODS: 1.4.0
