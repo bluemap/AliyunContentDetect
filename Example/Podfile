@@ -5,6 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AliyunContentDetect_Example' do
   pod 'AliyunContentDetect', :path => '../'
+  pod 'SDWebImage', '~> 4.3.3'
   #pod 'AFNetworking','3.2.0'
   #pod 'NSString-Hash'
   #pod 'NSString-UrlEncode'

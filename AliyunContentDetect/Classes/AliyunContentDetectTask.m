@@ -116,7 +116,8 @@
 
 - (NSMutableURLRequest *)makeRequest
 {
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self.params options:NSJSONWritingPrettyPrinted error:nil];
+    id params = self.params? self.params:self.arrayParams;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:params options:NSJSONWritingPrettyPrinted error:nil];
     
     NSString *contentMD5 = [[jsonData md5Data]base64EncodedString];
     

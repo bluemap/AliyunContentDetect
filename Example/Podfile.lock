@@ -22,9 +22,13 @@ PODS:
   - CocoaSecurity (1.2.4)
   - NSString-Hash (0.0.1)
   - NSString-UrlEncode (2.1.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
 
 DEPENDENCIES:
   - AliyunContentDetect (from `../`)
+  - SDWebImage (~> 4.3.3)
 
 EXTERNAL SOURCES:
   AliyunContentDetect:
@@ -36,7 +40,8 @@ SPEC CHECKSUMS:
   CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
   NSString-Hash: 59c428d8a5f0f85ec443ef9865107832b8a845e7
   NSString-UrlEncode: 92dcb01cac33ef036cda76baf0e4378b18779e47
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
-PODFILE CHECKSUM: fa1dc634ce33fb0c9516da7d264794b94d59881f
+PODFILE CHECKSUM: 236e6409854660196e099496901fb716a1b03ce9
 
 COCOAPODS: 1.4.0

@@ -11,10 +11,11 @@
  **/
 
 #import <Foundation/Foundation.h>
+#import "AliyunContectDetectDefine.h"
 
 @protocol AliyunContentDetectServiceObserver<NSObject>
 @optional
-- (void)contectDetectFinish:(NSDictionary *)result error:(NSError *)error;
+- (void)contectDetectFinish:(NSString *)url result:(NSDictionary *)result error:(NSError *)error;
 @end
 
 @interface AliyunContentDetectService : NSObject
@@ -25,6 +26,9 @@
 
 - (void)addObserver:(NSObject<AliyunContentDetectServiceObserver> *)observer;
 - (void)removeObserver:(NSObject<AliyunContentDetectServiceObserver> *)observer;
-- (void)pornImageDetectWithURL:(NSString *)url;
+- (void)imageDetectWithURL:(NSString *)url type:(EDetectType)type;
+- (void)videoDetectWithURL:(NSString *)url type:(EDetectType)type;
+
+- (NSDictionary *)detectResultForURL:(NSString *)url;
 
 @end

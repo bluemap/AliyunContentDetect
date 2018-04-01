@@ -51,62 +51,79 @@
     switch (type) {
         case EImagePorn:
         {
-            params = [self.class imagePornParamsWithURL:url];
+            params = [self.class imageDetectParamsWithURL:url scene:@"porn"];
             break;
         }
         case EImageTerrorism:
         {
+            params = [self.class imageDetectParamsWithURL:url scene:@"terrorism"];
             break;
         }
         case EImageOCR:
         {
+            params = [self.class imageDetectParamsWithURL:url scene:@"ocr"];
             break;
         }
         case EImageSface:
         {
-            break;
-        }
-        case ETextAntispam:
-        {
+            params = [self.class imageDetectParamsWithURL:url scene:@"sface"];
             break;
         }
         case EImageAd:
         {
+            params = [self.class imageDetectParamsWithURL:url scene:@"ad"];
+            break;
+        }
+        case EImageQrcode:
+        {
+            params = [self.class imageDetectParamsWithURL:url scene:@"qrcode"];
             break;
         }
         case EImageLive:
         {
+            params = [self.class imageDetectParamsWithURL:url scene:@"live"];
             break;
         }
         case EImageLogo:
         {
+            params = [self.class imageDetectParamsWithURL:url scene:@"logo"];
             break;
         }
         case EVideoPorn:
         {
+            params = [self.class videoDetectParamsWithURL:url scene:@"porn"];
             break;
         }
         case EVideoTerrorism:
         {
+            params = [self.class videoDetectParamsWithURL:url scene:@"terrorism"];
             break;
         }
         case EVideoLive:
         {
+            params = [self.class videoDetectParamsWithURL:url scene:@"live"];
             break;
         }
         case EVideoSface:
         {
+            params = [self.class videoDetectParamsWithURL:url scene:@"sface"];
             break;
         }
         case EVideoAd:
         {
+            params = [self.class videoDetectParamsWithURL:url scene:@"ad"];
             break;
         }
         case EVideoLogo:
         {
+            params = [self.class videoDetectParamsWithURL:url scene:@"logo"];
             break;
         }
         case EVoiceAntispam:
+        {
+            break;
+        }
+        case ETextAntispam:
         {
             break;
         }
@@ -117,14 +134,39 @@
     return params;
 }
 
-+ (NSDictionary *)imagePornParamsWithURL:(NSString *)url
++ (NSDictionary *)imageDetectParamsWithURL:(NSString *)url scene:(NSString *)scene
 {
-    NSDictionary *taskURL = @{@"url":url};
-    
-    NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    [params setObject:@[@"porn"] forKey:@"scenes"];
-    [params setObject:@[taskURL] forKey:@"tasks"];
-    
-    return taskURL;
+    if (url && scene)
+    {
+        NSDictionary *taskURL = @{@"url":url};
+        
+        NSMutableDictionary *params = [NSMutableDictionary dictionary];
+        [params setObject:@[scene] forKey:@"scenes"];
+        [params setObject:@[taskURL] forKey:@"tasks"];
+        
+        return params;
+    }
+    else
+    {
+        return nil;
+    }
+}
+
++ (NSDictionary *)videoDetectParamsWithURL:(NSString *)url scene:(NSString *)scene
+{
+    if (url && scene)
+    {
+        NSDictionary *taskParam = @{@"url":url,@"interval":@"1",@"maxFrames":@"200",@"dataId":url};
+        
+        NSMutableDictionary *params = [NSMutableDictionary dictionary];
+        [params setObject:@[scene] forKey:@"scenes"];
+        [params setObject:@[taskParam] forKey:@"tasks"];
+        
+        return params;
+    }
+    else
+    {
+        return nil;
+    }
 }
 @end

@@ -19,9 +19,10 @@
 
 - (id)initWithAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey baseAddr:(NSString *)baseAddr uri:(NSString *)uri;
 
-@property (nonatomic, strong) NSDictionary *params;
-@property (nonatomic, strong) NSString *identify;
-@property (nonatomic, assign) NSObject <AliyunContentDetectTaskDelegate> *delegate;
+@property (nonatomic, strong) NSDictionary  *params;
+@property (nonatomic, strong) NSArray       *arrayParams;
+@property (nonatomic, strong) NSString      *identify;
+@property (nonatomic, assign) NSObject      <AliyunContentDetectTaskDelegate> *delegate;
 
 - (void)startTask;
 

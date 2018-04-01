@@ -9,6 +9,8 @@
 #define AliyunContentDetectConfig_h
 
 #define kAliyunContentBaseAddr  @"https://green.cn-shanghai.aliyuncs.com"
-#define kPornDetectUri          @"/green/image/scan"
+#define kImagePornDetectUri     @"/green/image/scan"
+#define kVideoPornDetectUri     @"/green/video/asyncscan"
+#define kVideoPornResultUri     @"/green/video/results"
 
 #endif /* AliyunContentDetectConfig_h */

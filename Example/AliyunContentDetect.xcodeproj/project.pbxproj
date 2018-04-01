@@ -24,7 +24,12 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E1138DBA54DCA49DD22A0320 /* libPods-AliyunContentDetect_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4B1D8AB92DFDC8E0AAFCB5 /* libPods-AliyunContentDetect_Tests.a */; };
-		FAE52E802067E6AD003731EB /* BMImageDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE52E7F2067E6AD003731EB /* BMImageDetectViewController.m */; };
+		FA23A55A2070EF540024B462 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA23A5592070EF540024B462 /* AVFoundation.framework */; };
+		FA23A55D2070EFE00024B462 /* BMVideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA23A55C2070EFE00024B462 /* BMVideoCollectionViewCell.m */; };
+		FA924EB520707BBD00FB91D9 /* res in Resources */ = {isa = PBXBuildFile; fileRef = FA924EB420707BBD00FB91D9 /* res */; };
+		FA924EB9207084B500FB91D9 /* BMImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA924EB8207084B500FB91D9 /* BMImageCollectionViewCell.m */; };
+		FA924EBC2070CD6A00FB91D9 /* BMDetectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA924EBB2070CD6A00FB91D9 /* BMDetectModel.m */; };
+		FAE52E802067E6AD003731EB /* BMImageAndVideoDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE52E7F2067E6AD003731EB /* BMImageAndVideoDetectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +72,16 @@
 		9C9FD193405675C7DBED5421 /* libPods-AliyunContentDetect_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliyunContentDetect_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5BE685099050D229FD3C9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEAD5EA80D9B1114EE4CE11E /* Pods-AliyunContentDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FAE52E7E2067E6AD003731EB /* BMImageDetectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMImageDetectViewController.h; sourceTree = "<group>"; };
-		FAE52E7F2067E6AD003731EB /* BMImageDetectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMImageDetectViewController.m; sourceTree = "<group>"; };
+		FA23A5592070EF540024B462 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA23A55B2070EFE00024B462 /* BMVideoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMVideoCollectionViewCell.h; sourceTree = "<group>"; };
+		FA23A55C2070EFE00024B462 /* BMVideoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMVideoCollectionViewCell.m; sourceTree = "<group>"; };
+		FA924EB420707BBD00FB91D9 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		FA924EB7207084B500FB91D9 /* BMImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMImageCollectionViewCell.h; sourceTree = "<group>"; };
+		FA924EB8207084B500FB91D9 /* BMImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMImageCollectionViewCell.m; sourceTree = "<group>"; };
+		FA924EBA2070CD6A00FB91D9 /* BMDetectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMDetectModel.h; sourceTree = "<group>"; };
+		FA924EBB2070CD6A00FB91D9 /* BMDetectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMDetectModel.m; sourceTree = "<group>"; };
+		FAE52E7E2067E6AD003731EB /* BMImageAndVideoDetectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMImageAndVideoDetectViewController.h; sourceTree = "<group>"; };
+		FAE52E7F2067E6AD003731EB /* BMImageAndVideoDetectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMImageAndVideoDetectViewController.m; sourceTree = "<group>"; };
 		FB447202432A94AAACEEE84D /* Pods-AliyunContentDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunContentDetect_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunContentDetect_Tests/Pods-AliyunContentDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA23A55A2070EF540024B462 /* AVFoundation.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -122,6 +136,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA23A5592070EF540024B462 /* AVFoundation.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -140,10 +155,17 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BMViewController.h */,
 				6003F5A6195388D20070C39A /* BMViewController.m */,
-				FAE52E7E2067E6AD003731EB /* BMImageDetectViewController.h */,
-				FAE52E7F2067E6AD003731EB /* BMImageDetectViewController.m */,
+				FAE52E7E2067E6AD003731EB /* BMImageAndVideoDetectViewController.h */,
+				FAE52E7F2067E6AD003731EB /* BMImageAndVideoDetectViewController.m */,
+				FA924EB7207084B500FB91D9 /* BMImageCollectionViewCell.h */,
+				FA924EB8207084B500FB91D9 /* BMImageCollectionViewCell.m */,
+				FA23A55B2070EFE00024B462 /* BMVideoCollectionViewCell.h */,
+				FA23A55C2070EFE00024B462 /* BMVideoCollectionViewCell.m */,
+				FA924EBA2070CD6A00FB91D9 /* BMDetectModel.h */,
+				FA924EBB2070CD6A00FB91D9 /* BMDetectModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				FA924EB420707BBD00FB91D9 /* res */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for AliyunContentDetect";
@@ -252,7 +274,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BM;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = lijin;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -287,6 +309,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				FA924EB520707BBD00FB91D9 /* res in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,8 +429,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* BMAppDelegate.m in Sources */,
+				FA23A55D2070EFE00024B462 /* BMVideoCollectionViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* BMViewController.m in Sources */,
-				FAE52E802067E6AD003731EB /* BMImageDetectViewController.m in Sources */,
+				FA924EB9207084B500FB91D9 /* BMImageCollectionViewCell.m in Sources */,
+				FA924EBC2070CD6A00FB91D9 /* BMDetectModel.m in Sources */,
+				FAE52E802067E6AD003731EB /* BMImageAndVideoDetectViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,19 +492,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -506,18 +543,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

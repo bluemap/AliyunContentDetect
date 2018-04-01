@@ -7,12 +7,13 @@
 //
 
 #import "BMAppDelegate.h"
+#import <AliyunContentDetect/AliyunContectDetect.h>
 
 @implementation BMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [AliyunContentDetectService setAccessKey:@"6i9h5df23p10nrcnogkrriy7" secretKey:@"40KKfzXJAz46um6dekrYglX4EEE="];
     return YES;
 }
 
