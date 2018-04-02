@@ -14,7 +14,9 @@ return YES;
 ### 编译执行
 编译运行，如果提示pod相关错误，可以执行pod install尝试修复
 正常情况下界面效果如下
+
 ![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/main.png?raw=true)
+
 点击相应选项能够进入检测详情页面
 图片鉴黄界面如下图所示，顶部输入栏允许输入图片地址，点完成后将在图片展示区添加一张图片
 点击图片，开始检测，检测结果将在底部文本框显示
@@ -22,9 +24,11 @@ return YES;
 ![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/imageporn.png?raw=true)
 
 图片涉政检测
+
 ![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/imageface.png?raw=true)
 
 视频涉黄检测如下图所示，与图片鉴黄类似，但是视频鉴黄不能马上显示结果，需要30s轮询一次检测结果
+
 ![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/videoporn.png?raw=true)
 
 ### 打包测试
