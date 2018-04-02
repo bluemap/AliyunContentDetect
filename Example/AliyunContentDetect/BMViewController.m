@@ -83,6 +83,7 @@
      {
          cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identify];
          cell.textLabel.text = [self.detectList objectAtIndex:indexPath.row];
+         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
      }
  
  return cell;

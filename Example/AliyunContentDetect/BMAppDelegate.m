@@ -13,7 +13,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [AliyunContentDetectService setAccessKey:@"6i9h5df23p10nrcnogkrriy7" secretKey:@"40KKfzXJAz46um6dekrYglX4EEE="];
+#pragma mark 这里设置阿里云的accesskey及secret
+    [AliyunContentDetectService setAccessKey:@"set accessKey" secretKey:@"set secretKey"];
     return YES;
 }
 
