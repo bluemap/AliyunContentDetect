@@ -1,5 +1,15 @@
 # AliyunContentDetect
 运用阿里云做图片、视频等内容审查
+# 设计概要
+该demo模块及类设计如下图所示：
+![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/class.jpg?raw=true)
+主要分应用模块及服务模块。
+AliyunContentDetectService为阿里云服务service，提供统一的图片及视频检测接口。
+AliyunContentDetectTask为封装阿里云服务的具体task。
+BMViewController为服务入口界面。
+BMImageAndVideoDetectViewController为内容检测界面。
+应用模块及服务模块共同依赖AFNetworking等第三方库。
+
 # 使用说明
 ### 修改配置
 下载本项目代码，用Xcode打开Example中的AliyunContentDetect.xcworkspace工程，并修改如下所示配置
@@ -34,6 +44,7 @@ return YES;
 ### 打包测试
 修改bundle identifier并设置相关证书，打包ipa后上传[蒲公英](https://www.pgyer.com/)或相关平台生成内部测试包供下载使用
 打包可借鉴:[https://github.com/hades0918/ipapy](https://github.com/hades0918/ipapy)
+
 ### 备注
 相关默认数据只用来测试使用，请务随意传播
 
