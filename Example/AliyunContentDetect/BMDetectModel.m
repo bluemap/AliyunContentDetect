@@ -61,8 +61,7 @@
                                   [NSString stringWithFormat:@"%zd",EImageQrcode]:@[@"http://pic22.nipic.com/20120725/2034846_104946009384_2.jpg",@"http://pic35.nipic.com/20131125/11678986_113639001309_2.jpg",@"http://pic22.nipic.com/20120725/2034846_175320071305_2.jpg"],
                                   [NSString stringWithFormat:@"%zd",EImageLive]:@[@"http://1802.img.pp.sohu.com.cn/images/blog/2008/6/2/7/23/11aeb41c466.jpg",@"http://dyrb.zjol.com.cn/res/1/20101224/72831293200709906.jpg",@"http://images.ccoo.cn/bbs/2011814/20118149255816.jpg"],
                                   [NSString stringWithFormat:@"%zd",EImageLogo]:@[@"http://img01.store.sogou.com/app/a/07/c33d3a9d85be5bec8ee0a8b30b667c27",@"http://www.haoqu.net/uploadfile/2013/0902/20130902015448336.jpg",@"https://tse1-mm.cn.bing.net/th?id=OIP.d6MOhWoh-Vx_ttqT6R0TsQHaFj&p=0&o=5&pid=1.1"],
-                                  [NSString stringWithFormat:@"%zd",EVideoPorn]:@[@"https://d2.xia12345.com/down/2017/3/11001/173110726.mp4",@"https://d2.xia12345.com/down/2017/3/11001/173110164.mp4"],
-                                  [NSString stringWithFormat:@"%zd",EVideoAd]:@[@"https://d2.xia12345.com/down/2017/3/11001/173110726.mp4",@"https://d2.xia12345.com/down/2017/3/11001/173110164.mp4"]
+                                  [NSString stringWithFormat:@"%zd",EVideoPorn]:@[@"https://d2.xia12345.com/down/2017/3/11001/173110726.mp4",@"https://d2.xia12345.com/down/2017/3/11001/173110164.mp4"]
                                   };
     return defaultUrls;
 }
