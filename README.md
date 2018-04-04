@@ -47,7 +47,7 @@ return YES;
 
 ### 接口调用分析
 在阿里云的管理控制台我们可以看到接口调用情况及内容检测结果。
-![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/ananyze.png?raw=true)
+![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/analyze.png?raw=true)
 ### 备注
 相关默认数据只用来测试使用，请务随意传播
 
