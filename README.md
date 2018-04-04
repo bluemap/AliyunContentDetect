@@ -45,6 +45,9 @@ return YES;
 修改bundle identifier并设置相关证书，打包ipa后上传[蒲公英](https://www.pgyer.com/)或相关平台生成内部测试包供下载使用
 打包可借鉴:[https://github.com/hades0918/ipapy](https://github.com/hades0918/ipapy)
 
+### 接口调用分析
+在阿里云的管理控制台我们可以看到接口调用情况及内容检测结果。
+![](https://github.com/bluemap/AliyunContentDetect/blob/master/Example/screenshots/ananyze.png?raw=true)
 ### 备注
 相关默认数据只用来测试使用，请务随意传播
 
